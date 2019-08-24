@@ -1,0 +1,5 @@
+a=int(input("digite el numero:"))
+if a%2==0:
+    print("es positivo")
+else:
+    print("no es positivo")
