@@ -9,11 +9,11 @@ for i in range(1, cant+1):
  else:
        if num<0:
           negativos=(negativos+1)
-       else num==0:
-          ceros=(ceros+1)
-      fin si
-  fin si
-fin para
+       else:
+         if num==0:
+           ceros=(ceros+1)
+
+
 print("positivos:",positivos)
 print("negativos",negativos)
 print("ceros",ceros)
